@@ -1,10 +1,10 @@
-.open-sans-bold> {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans-bold {
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
 }
 
 .navbar {
@@ -24,7 +24,7 @@
 
 .nav-title {
 	color: #333;
-	font-size: 40px;
+	font-size: 60px;
 	font-family: "Open Sans", serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
@@ -41,11 +41,124 @@
 .nav-tabs a {
     color: #333;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     white-space: nowrap;
-}coration: none;
+	decoration: none;
 }
 
 .nav-tabs a:hover {
     color: #007bff;
+}
+
+.a1 {
+	background-color: #f3d453;
+	padding: 100px 20px;
+	margin-top: 60px;
+	border-bottom: 1000px solid #f3d453;
+}
+
+.a1 h1 {
+	color: #333;
+	font-size: 50px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.a1 p {
+	color: #333;
+	font-size: 25px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.a2 {
+	background-color: #25ced0;
+	padding: 100px 20px;
+	border-bottom: 1000px solid #25ced0;
+}
+
+.a2 h1 {
+	color: #333;
+	font-size: 50px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.a2 p {
+	color: #333;
+	font-size: 25px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.a3 {
+	background-color: #cd658e;
+	padding: 100px 20px;
+	border-bottom: 1000px solid #cd658e;
+}
+
+.a3 h1 {
+	color: #333;
+	font-size: 50px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.a3 p {
+	color: #333;
+	font-size: 25px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.members {
+	background-color: #efa7ff;
+	padding: 100px 20px;
+	border-bottom: 1000px solid #efa7ff;
+}
+
+.members h1 {
+	color: #333;
+	font-size: 50px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+.members p {
+	color: #333;
+	font-size: 25px;
+	font-family: "Open Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
 }

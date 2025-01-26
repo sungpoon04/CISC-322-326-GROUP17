@@ -151,3 +151,9 @@ h1, h2, p {
 	decoration: none;
 	margin: 5px 0;
 }
+
+.image-style {
+	width: 10%;
+	max-width: 240px;
+	height: auto;
+}

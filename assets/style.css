@@ -1,7 +1,18 @@
-.open-sans-bold {
-	font-family: "Open Sans", serif;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+
+.fredoka-semibold {
+	font-family: "Fredoka", serif;
 	font-optical-sizing: auto;
-	font-weight: 700;
+	font-weight: 600;
+	font-style: normal;
+	font-variation-settings:
+	"wdth" 100;
+}
+
+h1, h2, p {
+	font-family: "Fredoka", serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
 	font-style: normal;
 	font-variation-settings:
 	"wdth" 100;
@@ -25,12 +36,6 @@
 .nav-title {
 	color: #333;
 	font-size: 60px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
 .nav-tabs {
@@ -50,115 +55,99 @@
     color: #007bff;
 }
 
+.column2 a:hover {
+    color: #007bff;
+}
+
 .a1 {
 	background-color: #f3d453;
 	padding: 100px 20px;
-	margin-top: 60px;
-	border-bottom: 1000px solid #f3d453;
+	border-bottom: 300px solid #f3d453;
 }
 
 .a1 h1 {
 	color: #333;
 	font-size: 50px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
 .a1 p {
 	color: #333;
 	font-size: 25px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
 .a2 {
 	background-color: #25ced0;
 	padding: 100px 20px;
-	border-bottom: 1000px solid #25ced0;
+	border-bottom: 300px solid #25ced0;
 }
 
 .a2 h1 {
 	color: #333;
 	font-size: 50px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
 .a2 p {
 	color: #333;
 	font-size: 25px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
 .a3 {
 	background-color: #cd658e;
 	padding: 100px 20px;
-	border-bottom: 1000px solid #cd658e;
+	border-bottom: 300px solid #cd658e;
 }
 
 .a3 h1 {
 	color: #333;
 	font-size: 50px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
 .a3 p {
 	color: #333;
 	font-size: 25px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
-.members {
+.home {
 	background-color: #efa7ff;
 	padding: 100px 20px;
-	border-bottom: 1000px solid #efa7ff;
+	border-bottom: 300px solid #efa7ff;
 }
 
-.members h1 {
+.home h1 {
 	color: #333;
 	font-size: 50px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
 }
 
-.members p {
+.home p {
 	color: #333;
 	font-size: 25px;
-	font-family: "Open Sans", serif;
-	font-optical-sizing: auto;
-	font-weight: 700;
-	font-style: normal;
-	font-variation-settings:
-	"wdth" 100;
+}
+
+.columns {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 50px;
+	margin: 0 auto;
+}
+
+.column1, .column2 {
+	color: #333;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.column1 p {
+    color: #333;
+    font-size: 20px;
+	margin: 5px 0;
+}
+
+.column2 a, p {
+    color: #333;
+    font-size: 20px;
+	decoration: none;
+	margin: 5px 0;
 }
